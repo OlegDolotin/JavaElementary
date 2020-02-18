@@ -1,4 +1,4 @@
-package com.hillel.javaElementary.classes;
+package com.hillel.javaElementary.classes.FirstClass;
 
 public class FirstClass {
 
@@ -49,11 +49,10 @@ public class FirstClass {
     }
 
     public static int sumNumbers(int number){
-        String num = number+"";   //еще можно использовать десятичный логорифм если не ошибаюсь, чтобы найти количество цифр в числе
         int sum = 0;
         int d = 10;
         sum += number % 10;
-        for (int i = 0; i < num.length(); i++){
+        for (int i = 0; i < Math.log10(number)+1; i++){
             sum += number/d % 10;
             d*=10;
         }
@@ -61,12 +60,10 @@ public class FirstClass {
     }
 
     public static boolean divisibleByThree(String input){
-        int sum = 1;
+        int sum = 0;
 
-        try {
-             sum = sumNumbers(Integer.parseInt(input));
-        }catch (NumberFormatException exception){
-            exception.printStackTrace();
+        for (int i = 0; i < input.length(); i++){
+            sum += (int)input.charAt(i)-48;
         }
 
         if(sum % 3 == 0){
@@ -87,32 +84,12 @@ public class FirstClass {
             return "now";
         }
 
+        TimeLeft left = new TimeLeft(seconds);
 
-        int temp;
-        int sec = seconds - ((seconds/60)*60);
-        temp = seconds/60;
-
-        int minutes  = temp - ((temp/60)*60);
-        temp /= 60;
-
-        int hours = temp - ((temp/24)*24);
-        if (hours <= 0){
-            return minutes+" minutes and "+sec+" seconds";
-        }
-        temp /= 24;
-
-
-        int days = temp - ((temp/365)*365);
-        if (days <= 0){
-            return hours+" hours, "+minutes+" minutes and "+sec+" seconds";
-        }
-        int years = temp/365;
-
-
-        if (years <=0){
-            return days+" days, "+hours+" hours, "+minutes+" minutes and "+sec+" seconds";
-        }else {
-            return years+" years, "+days+" days, "+hours+" hours, "+minutes+" minutes and "+sec+" seconds";
-        }
+        return left.toString();
     }
+
+
+
+
 }
