@@ -1,4 +1,4 @@
-package com.hillel.javaElementary.classes.FirstClass;
+package com.hillel.javaElementary.classes.FirstLesson;
 
 
 public class TimeLeft {

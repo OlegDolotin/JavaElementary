@@ -1,4 +1,4 @@
-package com.hillel.javaElementary.classes.SecondClass;
+package com.hillel.javaElementary.classes.SecondLesson;
 
 import java.util.ArrayList;
 

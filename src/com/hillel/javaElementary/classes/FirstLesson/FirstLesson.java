@@ -1,6 +1,6 @@
-package com.hillel.javaElementary.classes.FirstClass;
+package com.hillel.javaElementary.classes.FirstLesson;
 
-public class FirstClass {
+public class FirstLesson {
 
     public static int max(int a, int b){
         if(a > b){
@@ -50,11 +50,10 @@ public class FirstClass {
 
     public static int sumNumbers(int number){
         int sum = 0;
-        int d = 10;
         sum += number % 10;
-        for (int i = 0; i < Math.log10(number)+1; i++){
-            sum += number/d % 10;
-            d*=10;
+        for (int i = 0; number > 0; i++){
+            sum += number/10 % 10;
+            number /=10;
         }
         return sum;
     }
