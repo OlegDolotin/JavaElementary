@@ -5,7 +5,7 @@ import java.util.Comparator;
 public class TableComparator implements Comparator<Table> {
     @Override
     public int compare(Table o1, Table o2) {
-        int result = o1.getDate().compareTo(o2.getDate()) * -1;
+        int result = o2.getDate().compareTo(o1.getDate());
         if (result != 0){
             return result;
         }
@@ -20,7 +20,7 @@ public class TableComparator implements Comparator<Table> {
             return result;
         }
 
-        result = o1.getOrderCost().compareTo(o2.getOrderCost()) * -1;
+        result = o2.getOrderCost().compareTo(o1.getOrderCost());
 
         return result;
     }
