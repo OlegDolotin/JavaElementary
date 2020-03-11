@@ -1,7 +1,7 @@
 package com.hillel.javaElementary.classes.Lesson_4.People;
 
-import com.hillel.javaElementary.classes.Lesson_4.NotPeople.DepartmentList;
-import com.hillel.javaElementary.classes.Lesson_4.NotPeople.FacultyList;
+import com.hillel.javaElementary.classes.Lesson_4.NotPeople.EDepartment;
+import com.hillel.javaElementary.classes.Lesson_4.NotPeople.EFaculty;
 
 public class Teacher {
     private String name;
@@ -9,8 +9,8 @@ public class Teacher {
     private int age;
     private int experience;
     private Position position;
-    private DepartmentList departmentList;
-    private FacultyList facultyList;
+    private EDepartment departmentList;
+    private EFaculty facultyList;
 
     public Teacher(String name, String surname, int age, int experience, Position position){
         this.name = name;
@@ -36,11 +36,11 @@ public class Teacher {
         return position;
     }
 
-    public DepartmentList getDepartmentList() {
+    public EDepartment getDepartmentList() {
         return departmentList;
     }
 
-    public FacultyList getFacultyList() {
+    public EFaculty getFacultyList() {
         return facultyList;
     }
 }

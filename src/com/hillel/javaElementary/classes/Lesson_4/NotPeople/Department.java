@@ -7,14 +7,14 @@ import com.hillel.javaElementary.classes.Lesson_4.People.Teacher;
 import java.util.ArrayList;
 
 public class Department {
-    private FacultyList faculty;
-    private DepartmentList department;
+    private EFaculty faculty;
+    private EDepartment department;
     private ArrayList<Student> students;
     private ArrayList<Group> groups;
     private ArrayList<Teacher> teachers;
 
     public Department(ArrayList<Student> students, ArrayList<Group> groups,
-                      FacultyList faculty, DepartmentList department, ArrayList<Teacher> teachers){
+                      EFaculty faculty, EDepartment department, ArrayList<Teacher> teachers){
         this.students = students;
         this.groups = groups;
         this.faculty = faculty;
@@ -22,11 +22,11 @@ public class Department {
         this.teachers = teachers;
     }
 
-    public FacultyList getFaculty() {
+    public EFaculty getFaculty() {
         return faculty;
     }
 
-    public DepartmentList getDepartment() {
+    public EDepartment getDepartment() {
         return department;
     }
 

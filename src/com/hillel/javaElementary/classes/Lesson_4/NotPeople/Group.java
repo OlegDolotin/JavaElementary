@@ -4,23 +4,23 @@ import  com.hillel.javaElementary.classes.Lesson_4.People.Student;
 import java.util.ArrayList;
 
 public class Group {
-    private DepartmentList department;
-    private FacultyList faculty;
+    private EDepartment department;
+    private EFaculty faculty;
     private ArrayList<Student> students;
     private String group;
 
-    public Group(DepartmentList department, FacultyList faculty, ArrayList<Student> students, String group) {
+    public Group(EDepartment department, EFaculty faculty, ArrayList<Student> students, String group) {
         this.department = department;
         this.faculty = faculty;
         this.students = students;
         this.group = group;
     }
 
-    public DepartmentList getDepartment() {
+    public EDepartment getDepartment() {
         return department;
     }
 
-    public FacultyList getFaculty() {
+    public EFaculty getFaculty() {
         return faculty;
     }
 

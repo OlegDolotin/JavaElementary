@@ -6,7 +6,6 @@ import com.hillel.javaElementary.classes.Lesson_4.NotPeople.*;
 import com.hillel.javaElementary.classes.Lesson_4.People.Teacher;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class Main {
@@ -23,11 +22,11 @@ public class Main {
         students.add(student3);
         students.add(student4);
         students.add(student5);
-        Group group1 = new Group(DepartmentList.CSaIT, FacultyList.EI, students, "6.04.051.010.17.02");
-        Group group2 = new Group(DepartmentList.CSaIT, FacultyList.F, students, "6.04.186.010.18.01");
-        Group group3 = new Group(DepartmentList.CSaIT, FacultyList.IER, students, "6.04.051.010.17.03");
-        Group group4 = new Group(DepartmentList.CSaIT, FacultyList.ToFC, students, "6.04.051.010.19.01");
-        Group group5 = new Group(DepartmentList.CSaIT, FacultyList.CaIB, students, "6.04.051.012.17.02");
+        Group group1 = new Group(EDepartment.CSaIT, EFaculty.EI, students, "6.04.051.010.17.02");
+        Group group2 = new Group(EDepartment.CSaIT, EFaculty.F, students, "6.04.186.010.18.01");
+        Group group3 = new Group(EDepartment.CSaIT, EFaculty.IER, students, "6.04.051.010.17.03");
+        Group group4 = new Group(EDepartment.CSaIT, EFaculty.ToFC, students, "6.04.051.010.19.01");
+        Group group5 = new Group(EDepartment.CSaIT, EFaculty.CaIB, students, "6.04.051.012.17.02");
         groups.add(group1);
         groups.add(group2);
         groups.add(group3);
@@ -44,15 +43,15 @@ public class Main {
         teachers.add(teacher3);
         teachers.add(teacher4);
         teachers.add(teacher5);
-        Department department1 = new Department(students, groups, FacultyList.EI, DepartmentList.CSaIT, teachers);
+        Department department1 = new Department(students, groups, EFaculty.EI, EDepartment.CSaIT, teachers);
         ArrayList<Department> departments = new ArrayList<>();
         departments.add(department1);
-        Faculty faculty1 = new Faculty(departments, FacultyList.EI);
-        Room room1 = new Room(320, DepartmentList.CSaIT, FacultyList.EI);
-        Room room2 = new Room(418, DepartmentList.CSaIT, FacultyList.EI);
-        Room room3 = new Room(115, DepartmentList.CSaIT, FacultyList.EI);
-        Room room4 = new Room(410, DepartmentList.CSaIT, FacultyList.EI);
-        Room room5 = new Room(223, DepartmentList.CSaIT, FacultyList.EI);
+        Faculty faculty1 = new Faculty(departments, EFaculty.EI);
+        Room room1 = new Room(320, EDepartment.CSaIT, EFaculty.EI);
+        Room room2 = new Room(418, EDepartment.CSaIT, EFaculty.EI);
+        Room room3 = new Room(115, EDepartment.CSaIT, EFaculty.EI);
+        Room room4 = new Room(410, EDepartment.CSaIT, EFaculty.EI);
+        Room room5 = new Room(223, EDepartment.CSaIT, EFaculty.EI);
         Lesson lesson1 = new Lesson(group1, teacher1, new GregorianCalendar(2020, 3,2,10,15), "Web", room1);
         Lesson lesson2 = new Lesson(group2, teacher2, new GregorianCalendar(2020,3,2,12,10), "CMS", room2);
         Lesson lesson3 = new Lesson(group3, teacher3, new GregorianCalendar(2020,3,2,12,10), "PHP", room2);

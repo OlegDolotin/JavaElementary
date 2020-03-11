@@ -2,10 +2,10 @@ package com.hillel.javaElementary.classes.Lesson_4.NotPeople;
 
 public class Room {
     private int roomNumber;
-    private DepartmentList department;
-    private FacultyList faculty;
+    private EDepartment department;
+    private EFaculty faculty;
 
-    public Room(int roomNumber, DepartmentList department, FacultyList faculty) {
+    public Room(int roomNumber, EDepartment department, EFaculty faculty) {
         this.roomNumber = roomNumber;
         this.department = department;
         this.faculty = faculty;
@@ -15,11 +15,11 @@ public class Room {
         return roomNumber;
     }
 
-    public DepartmentList getDepartment() {
+    public EDepartment getDepartment() {
         return department;
     }
 
-    public FacultyList getFaculty() {
+    public EFaculty getFaculty() {
         return faculty;
     }
 }

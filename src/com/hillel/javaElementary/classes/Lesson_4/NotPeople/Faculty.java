@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Faculty {
     private ArrayList<Department> departments;
-    private FacultyList faculty;
+    private EFaculty faculty;
 
-    public Faculty(ArrayList<Department> departments, FacultyList faculty){
+    public Faculty(ArrayList<Department> departments, EFaculty faculty){
         this.departments = departments;
         this.faculty = faculty;
     }
@@ -15,7 +15,7 @@ public class Faculty {
         return departments;
     }
 
-    public FacultyList getFaculty() {
+    public EFaculty getFaculty() {
         return faculty;
     }
 }

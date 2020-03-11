@@ -1,11 +1,14 @@
 package com.hillel.javaElementary.classes.Lesson_5.Building;
 
-public class AgriculturalStorage extends AgriculturalBuilding{
+import com.hillel.javaElementary.classes.Lesson_5.Building.Abstract.AgriculturalBuilding;
+import com.hillel.javaElementary.classes.Lesson_5.Building.Enum.EAgricultural;
+
+public class AgriculturalStorage extends AgriculturalBuilding {
     private int capacity;
     private int filledOut;
     private String crop;
 
-    public AgriculturalStorage(String name, int number,int quantityOfFloors, AgriculturalBuildingType type , int capacity, String crop) {
+    public AgriculturalStorage(String name, int number, int quantityOfFloors, EAgricultural type , int capacity, String crop) {
         this.name = name;
         this.number = number;
         this.quantityOfFloors = quantityOfFloors;
@@ -35,5 +38,13 @@ public class AgriculturalStorage extends AgriculturalBuilding{
         int output = filledOut;
         filledOut = 0;
         return output;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+"\n" +
+                "capacity=" + capacity +
+                ", filledOut=" + filledOut +
+                ", crop='" + crop + '\'';
     }
 }
