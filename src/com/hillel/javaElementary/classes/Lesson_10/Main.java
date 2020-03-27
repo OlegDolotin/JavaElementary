@@ -23,6 +23,11 @@ public class Main {
         contacts.add(contact3);
         contacts.add(contact4);
         contacts.add(contact5);
+        contacts.add(contact6);
+        contacts.add(contact7);
+        contacts.add(contact8);
+        contacts.add(contact9);
+
 
         List<Message> messages = new ArrayList<>();
 
@@ -149,6 +154,7 @@ public class Main {
         messageList.add(message13);
 
         topFiveContactsByMessageCount(messageList);
+
     }
 
     public static <T> List<Pair<T, Integer>> topFive(List<Pair<T, Integer>> pairs){
@@ -220,4 +226,6 @@ public class Main {
         }
         return result;
     }
+
+
 }
