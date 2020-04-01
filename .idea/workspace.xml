@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07f162ec-01e5-44a4-a049-2778a9434389" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaElementary/com/hillel/javaElementary/classes/Lesson_10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaElementary/com/hillel/javaElementary/classes/Lesson_10/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="07f162ec-01e5-44a4-a049-2778a9434389" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,68 +12,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Message.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+            <state relative-caret-position="331">
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/DequeWrapper.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="314">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/CallLog.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/MyDomainException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Flag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -87,8 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,9 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_5/Vehicle/GroundV/Rail/Train.java" />
-        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_5/Vehicle/GroundV/Rail/Tram.java" />
-        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_5/Vehicle/GroundV/NotRail/NotRail.java" />
         <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_5/Vehicle/GroundV/NotRail/Car.java" />
         <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_5/Vehicle/GroundV/NotRail/Motorcycle.java" />
         <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_5/Vehicle/WaterV/OverWater/OverWater.java" />
@@ -147,12 +112,15 @@
         <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/DequeImpl.java" />
         <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/WrapperForDeque.java" />
         <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Flag.java" />
-        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Main.java" />
         <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/DequeWrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/MyDomainException.java" />
+        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="160" />
     <option name="width" value="1750" />
@@ -189,14 +157,7 @@
               <item name="JavaElementary" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson_10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaElementary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaElementary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson_12" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson_13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,7 +166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585760447408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585763719345" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Програмирование Java/Java intro" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -232,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hillel.javaElementary.classes.Lesson_10.Main" />
       <module name="JavaElementary" />
@@ -259,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hillel.javaElementary.classes.Lesson_5.Vehicle.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hillel.javaElementary.classes.Lesson_13.Main" />
       <module name="JavaElementary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hillel.javaElementary.classes.Lesson_5.Vehicle.*" />
+          <option name="PATTERN" value="com.hillel.javaElementary.classes.Lesson_13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +362,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24026845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,13 +371,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3385269" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3385269" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.30311614" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.30311614" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -446,37 +407,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_7/IHumanLifecycleObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_7/LoggingHumanLifecycleObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_7/HumanLifecycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_7/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_8/Task_5/NetworkReportingLifecycleObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -799,10 +729,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="304">
+          <caret line="222" column="31" selection-start-line="221" selection-start-column="17" selection-end-line="222" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="105" column="28" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -813,13 +756,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_10/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="222" column="31" selection-start-line="221" selection-start-column="17" selection-end-line="222" selection-end-column="31" />
+        <state relative-caret-position="519">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/DequeWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Flag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -833,34 +794,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Flag.java">
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/MyDomainException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_12/DequeWrapper.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="180">
+          <caret line="881" column="16" selection-start-line="881" selection-start-column="16" selection-end-line="881" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hillel/javaElementary/classes/Lesson_13/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
         </state>
       </provider>
     </entry>
