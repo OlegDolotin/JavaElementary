@@ -43,10 +43,38 @@ public class Functional {
             result.put(message.getContact(), count+1);
         }
 
-
-
         Map<Contact, Integer> sortedResult = new TreeMap<>(result);
         System.out.println(sortedResult.toString());
+    }
+
+    public static void topFiveContactWithTheLongestDuration(List<CallLog> logs){
+        Set<Contact> contacts = getUniqContacts(logs);
+        Map<Contact, Long> result = wrapSet(contacts);
+
+        for (CallLog log: logs){
+            result.put(log.getContact(), result.get(log.getContact())+ log.getDuration().getTime());
+        }
+
+        Object[] output = result.entrySet().stream().sorted(Map.Entry.<Contact, Long>comparingByValue().reversed()).toArray();
+        for (int i = 0; i < 5; i++){
+            System.out.println(output[i]);
+        }
+    }
+
+    private static Set<Contact> getUniqContacts(List<CallLog> logs){
+        Set<Contact> contacts = new HashSet<>();
+        for (CallLog log: logs){
+            contacts.add(log.getContact());
+        }
+        return contacts;
+    }
+
+    private static Map<Contact, Long> wrapSet(Set<Contact> contacts){
+        Map<Contact, Long> result = new HashMap<>();
+        for (Contact contact: contacts){
+            result.put(contact,  (long) 0);
+        }
+        return result;
     }
 
 
