@@ -1,10 +1,14 @@
-package com.hillel.javaElementary.classes.Lesson_14;
+package com.hillel.javaElementary.classes.Lesson_15;
 
-public class Contact {
+import java.io.Serializable;
+
+public class Contact implements Serializable {
     private String name;
     private String surname;
     private String phoneNumber;
     private int yearOfBirth;
+
+    private static final long serialVersionUID = 1L;
 
     public Contact(String name, String surname, String phoneNumber, int yearOfBirth) {
         this.name = name;
@@ -47,7 +51,7 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Contact {" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
